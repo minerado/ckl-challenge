@@ -10,19 +10,19 @@ const CklApp = () => (
                 </div>
                 
                 <nav className='header-items'>
-                    <div>
+                    <div className='header-item'>
                         POLITICS
                     </div>
-                    <div>
+                    <div className='header-item'>
                         BUSINESS
                     </div>
-                    <div>
+                    <div className='header-item'>
                         TECH
                     </div>
-                    <div>
+                    <div className='header-item'>
                         SCIENCE
                     </div>
-                    <div>
+                    <div className='header-item'>
                         SPORTS
                     </div>
                 </nav>
