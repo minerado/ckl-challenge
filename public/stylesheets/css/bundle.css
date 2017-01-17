@@ -45,4 +45,15 @@ html {
   font-family: "Open Sans", sans-serif;
   font-size: 12px; }
 
+.header {
+  border-bottom: solid 1px #444; }
+  .header-menu {
+    line-height: 55px;
+    text-align: center;
+    width: 55px; }
+  .header-items {
+    margin-left: 15px; }
+  .header-item {
+    line-height: 55px; }
+
 /*# sourceMappingURL=bundle.css.map */
