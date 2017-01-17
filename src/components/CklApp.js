@@ -4,7 +4,29 @@ import React from 'react'
 const CklApp = () => (
     <div>
         <header>
-            App header (here goes the menu and logo)
+            <div>
+                <div>
+                    Menu
+                </div>
+                
+                <nav>
+                    <div>
+                        POLITICS
+                    </div>
+                    <div>
+                        BUSINESS
+                    </div>
+                    <div>
+                        TECH
+                    </div>
+                    <div>
+                        SCIENCE
+                    </div>
+                    <div>
+                        SPORTS
+                    </div>
+                </nav>
+            </div>
         </header>
 
         <main>
