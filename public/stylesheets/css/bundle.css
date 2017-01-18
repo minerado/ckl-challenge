@@ -133,5 +133,15 @@ main {
       width: 35px; }
     .posts-top .post:first-of-type .post-author__name {
       line-height: 35px; } }
+@media only screen and (min-width: 1170px) {
+  .posts-top .post:first-of-type {
+    width: 50%; }
+  .posts-top .post:not(:first-of-type) {
+    width: 25%; }
+    .posts-top .post:not(:first-of-type) .post-image {
+      height: 125px; }
+
+  .posts-bottom .post {
+    width: 33.3333%; } }
 
 /*# sourceMappingURL=bundle.css.map */

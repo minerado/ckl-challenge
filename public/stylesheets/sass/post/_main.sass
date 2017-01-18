@@ -83,4 +83,22 @@ $author-height-small: 25px
             
             .post-author__name
                 line-height: $author-height
-        
+
+// Desktop screens
+@media only screen and (min-width: 1170px)
+    .posts-top
+
+        .post
+            &:first-of-type
+                width: 50%
+            
+            &:not(:first-of-type)
+                width: 25%
+
+                .post-image
+                    height: 125px
+    
+    .posts-bottom
+
+        .post
+            width: 33.3333%
