@@ -6,6 +6,10 @@ const receivePosts = (posts) => ({
     type: 'RECEIVE_POSTS',
 })
 
+const requestPosts = () => ({
+    type: 'REQUEST_POSTS',
+})
+
 export const toggleMenu = (menu) => ({
     menu: !menu,
     type: 'TOGGLE_MENU',
