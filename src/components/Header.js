@@ -1,4 +1,5 @@
 import React from 'react'
+import { connect } from 'react-redux'
 
 import classNames from 'classnames'
 
@@ -38,6 +39,19 @@ let Header = ({
         </div>
     </header>
 )
+
+const mapStateToProps = (state) => {
+    const menu = state.menu
+
+    return {
+        menu,
+    }
+}
+
+Header = connect(
+    mapStateToProps,
+    null,
+)(Header)
 
 
 export default Header
