@@ -65,8 +65,10 @@ const CklApp = () => (
                         TAG
                     </div>
 
-                    <div className='post-image'>
-                        IMAGE
+                    <div className='post-image'
+                         style={{
+                             backgroundImage: `url("http://s2.glbimg.com/k9nnD3e1icw7wKYe0dBLd3f8SZA=/540x304/top/smart/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2017/B/l/tnXrCAQkCdIkQP6GInRg/trump-13-01.jpg")`,
+                         }}>
                     </div>
 
                     <div className="post-title">
@@ -74,9 +76,7 @@ const CklApp = () => (
                     </div>
 
                     <div className="post-author">
-                        <div className="post-author__image">
-                            AUTHOR IMAGE
-                        </div>
+                        <div className="post-author__image"></div>
 
                         <div className="post-author__name">
                             by AUTHOR NAME
@@ -84,7 +84,7 @@ const CklApp = () => (
                     </div>
 
                     <div className="post-content line-clamp-8">
-                        POST TEXT
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ut velit dui. Fusce mauris ex, fringilla eget placerat vitae, euismod vel ligula. Sed sed tortor id neque finibus molestie sed ac justo. Pellentesque in tincidunt diam, a porta massa. In ac nunc aliquet, auctor nulla varius, ornare nisi. Quisque blandit urna a dui scelerisque, non facilisis massa fermentum. Donec sagittis dui sodales odio ultricies ornare. Curabitur mattis sed leo a finibus. Etiam hendrerit auctor congue. Integer vel ex maximus, fermentum lacus ac, tristique enim. In laoreet tellus non sodales consectetur.
                     </div>
                 </article>
 
@@ -93,8 +93,10 @@ const CklApp = () => (
                         TAG
                     </div>
 
-                    <div className='post-image'>
-                        IMAGE
+                    <div className='post-image'
+                         style={{
+                             backgroundImage: `url("http://s2.glbimg.com/k9nnD3e1icw7wKYe0dBLd3f8SZA=/540x304/top/smart/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2017/B/l/tnXrCAQkCdIkQP6GInRg/trump-13-01.jpg")`,
+                         }}>
                     </div>
 
                     <div className="post-title">
@@ -102,9 +104,7 @@ const CklApp = () => (
                     </div>
 
                     <div className="post-author">
-                        <div className="post-author__image">
-                            AUTHOR IMAGE
-                        </div>
+                        <div className="post-author__image"></div>
 
                         <div className="post-author__name">
                             by AUTHOR NAME
@@ -112,7 +112,7 @@ const CklApp = () => (
                     </div>
 
                     <div className="post-content line-clamp-8">
-                        POST TEXT
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ut velit dui. Fusce mauris ex, fringilla eget placerat vitae, euismod vel ligula. Sed sed tortor id neque finibus molestie sed ac justo. Pellentesque in tincidunt diam, a porta massa. In ac nunc aliquet, auctor nulla varius, ornare nisi. Quisque blandit urna a dui scelerisque, non facilisis massa fermentum. Donec sagittis dui sodales odio ultricies ornare. Curabitur mattis sed leo a finibus. Etiam hendrerit auctor congue. Integer vel ex maximus, fermentum lacus ac, tristique enim. In laoreet tellus non sodales consectetur.
                     </div>
                 </article>
             </section>
@@ -123,8 +123,10 @@ const CklApp = () => (
                         TAG
                     </div>
 
-                    <div className='post-image'>
-                        IMAGE
+                    <div className='post-image'
+                         style={{
+                             backgroundImage: `url("http://s2.glbimg.com/k9nnD3e1icw7wKYe0dBLd3f8SZA=/540x304/top/smart/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2017/B/l/tnXrCAQkCdIkQP6GInRg/trump-13-01.jpg")`,
+                         }}>
                     </div>
 
                     <div className="post-title">
@@ -132,9 +134,7 @@ const CklApp = () => (
                     </div>
 
                     <div className="post-author">
-                        <div className="post-author__image">
-                            AUTHOR IMAGE
-                        </div>
+                        <div className="post-author__image"></div>
 
                         <div className="post-author__name">
                             by AUTHOR NAME
@@ -142,7 +142,7 @@ const CklApp = () => (
                     </div>
 
                     <div className="post-content line-clamp-8">
-                        POST TEXT
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ut velit dui. Fusce mauris ex, fringilla eget placerat vitae, euismod vel ligula. Sed sed tortor id neque finibus molestie sed ac justo. Pellentesque in tincidunt diam, a porta massa. In ac nunc aliquet, auctor nulla varius, ornare nisi. Quisque blandit urna a dui scelerisque, non facilisis massa fermentum. Donec sagittis dui sodales odio ultricies ornare. Curabitur mattis sed leo a finibus. Etiam hendrerit auctor congue. Integer vel ex maximus, fermentum lacus ac, tristique enim. In laoreet tellus non sodales consectetur.
                     </div>
                 </article>
 
@@ -151,8 +151,10 @@ const CklApp = () => (
                         TAG
                     </div>
 
-                    <div className='post-image'>
-                        IMAGE
+                    <div className='post-image'
+                         style={{
+                             backgroundImage: `url("http://s2.glbimg.com/k9nnD3e1icw7wKYe0dBLd3f8SZA=/540x304/top/smart/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2017/B/l/tnXrCAQkCdIkQP6GInRg/trump-13-01.jpg")`,
+                         }}>
                     </div>
 
                     <div className="post-title">
@@ -160,9 +162,7 @@ const CklApp = () => (
                     </div>
 
                     <div className="post-author">
-                        <div className="post-author__image">
-                            AUTHOR IMAGE
-                        </div>
+                        <div className="post-author__image"></div>
 
                         <div className="post-author__name">
                             by AUTHOR NAME
@@ -170,7 +170,7 @@ const CklApp = () => (
                     </div>
 
                     <div className="post-content line-clamp-8">
-                        POST TEXT
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ut velit dui. Fusce mauris ex, fringilla eget placerat vitae, euismod vel ligula. Sed sed tortor id neque finibus molestie sed ac justo. Pellentesque in tincidunt diam, a porta massa. In ac nunc aliquet, auctor nulla varius, ornare nisi. Quisque blandit urna a dui scelerisque, non facilisis massa fermentum. Donec sagittis dui sodales odio ultricies ornare. Curabitur mattis sed leo a finibus. Etiam hendrerit auctor congue. Integer vel ex maximus, fermentum lacus ac, tristique enim. In laoreet tellus non sodales consectetur.
                     </div>
                 </article>
 
@@ -179,8 +179,10 @@ const CklApp = () => (
                         TAG
                     </div>
 
-                    <div className='post-image'>
-                        IMAGE
+                    <div className='post-image'
+                         style={{
+                             backgroundImage: `url("http://s2.glbimg.com/k9nnD3e1icw7wKYe0dBLd3f8SZA=/540x304/top/smart/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2017/B/l/tnXrCAQkCdIkQP6GInRg/trump-13-01.jpg")`,
+                         }}>
                     </div>
 
                     <div className="post-title">
@@ -188,9 +190,7 @@ const CklApp = () => (
                     </div>
 
                     <div className="post-author">
-                        <div className="post-author__image">
-                            AUTHOR IMAGE
-                        </div>
+                        <div className="post-author__image"></div>
 
                         <div className="post-author__name">
                             by AUTHOR NAME
@@ -198,7 +198,7 @@ const CklApp = () => (
                     </div>
 
                     <div className="post-content line-clamp-8">
-                        POST TEXT
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ut velit dui. Fusce mauris ex, fringilla eget placerat vitae, euismod vel ligula. Sed sed tortor id neque finibus molestie sed ac justo. Pellentesque in tincidunt diam, a porta massa. In ac nunc aliquet, auctor nulla varius, ornare nisi. Quisque blandit urna a dui scelerisque, non facilisis massa fermentum. Donec sagittis dui sodales odio ultricies ornare. Curabitur mattis sed leo a finibus. Etiam hendrerit auctor congue. Integer vel ex maximus, fermentum lacus ac, tristique enim. In laoreet tellus non sodales consectetur.
                     </div>
                 </article>
             </section>
