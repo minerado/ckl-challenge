@@ -39,7 +39,7 @@ const CklApp = () => (
 
                     <div className='post-image'
                          style={{
-                             backgroundImage: 'http://s2.glbimg.com/k9nnD3e1icw7wKYe0dBLd3f8SZA=/540x304/top/smart/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2017/B/l/tnXrCAQkCdIkQP6GInRg/trump-13-01.jpg',
+                             backgroundImage: `url("http://s2.glbimg.com/k9nnD3e1icw7wKYe0dBLd3f8SZA=/540x304/top/smart/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2017/B/l/tnXrCAQkCdIkQP6GInRg/trump-13-01.jpg")`,
                          }}>
                     </div>
 
