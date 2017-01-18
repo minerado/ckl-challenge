@@ -63,5 +63,9 @@ html {
 .post-tag {
   font-size: 0.8rem;
   margin-bottom: 10px; }
+.post-title {
+  font-size: 1.8rem;
+  line-height: 1.2;
+  margin: 15px 0; }
 
 /*# sourceMappingURL=bundle.css.map */
