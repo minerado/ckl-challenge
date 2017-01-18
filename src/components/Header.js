@@ -3,13 +3,17 @@ import { connect } from 'react-redux'
 
 import classNames from 'classnames'
 
+import { toggleMenu } from '../actions'
+
 
 let Header = ({
+    toggleMenu,
     menu,
 }) => (
     <header className='header'>
         <div className='header-wrapper'>
-            <div className='header-menu'>
+            <div className='header-menu'
+                 onClick={() => toggleMenu(menu)}>
                 <i className='fa fa-bars'></i>
             </div>
 
@@ -50,7 +54,7 @@ const mapStateToProps = (state) => {
 
 Header = connect(
     mapStateToProps,
-    null,
+    { toggleMenu },
 )(Header)
 
 
