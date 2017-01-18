@@ -56,7 +56,7 @@ const CklApp = () => (
                     </div>
 
                     <div className="post-content line-clamp-8">
-                        POST TEXT
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ut velit dui. Fusce mauris ex, fringilla eget placerat vitae, euismod vel ligula. Sed sed tortor id neque finibus molestie sed ac justo. Pellentesque in tincidunt diam, a porta massa. In ac nunc aliquet, auctor nulla varius, ornare nisi. Quisque blandit urna a dui scelerisque, non facilisis massa fermentum. Donec sagittis dui sodales odio ultricies ornare. Curabitur mattis sed leo a finibus. Etiam hendrerit auctor congue. Integer vel ex maximus, fermentum lacus ac, tristique enim. In laoreet tellus non sodales consectetur.
                     </div>
                 </article>
 
