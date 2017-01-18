@@ -122,24 +122,29 @@ main {
     .post .post-author__name {
       line-height: 25px; }
 
-  .posts-top .post:first-of-type {
-    width: 100%; }
-    .posts-top .post:first-of-type .post-content {
-      display: none; }
-    .posts-top .post:first-of-type .post-title {
-      font-size: 1.8rem; }
-    .posts-top .post:first-of-type .post-author__image {
-      height: 35px;
-      width: 35px; }
-    .posts-top .post:first-of-type .post-author__name {
-      line-height: 35px; } }
+  .posts-top {
+    overflow: hidden; }
+    .posts-top .post:first-of-type {
+      width: 100%; }
+      .posts-top .post:first-of-type .post-content {
+        display: none; }
+      .posts-top .post:first-of-type .post-title {
+        font-size: 1.8rem; }
+      .posts-top .post:first-of-type .post-author__image {
+        height: 35px;
+        width: 35px; }
+      .posts-top .post:first-of-type .post-author__name {
+        line-height: 35px; } }
 @media only screen and (min-width: 1170px) {
-  .posts-top .post:first-of-type {
-    width: 50%; }
-  .posts-top .post:not(:first-of-type) {
-    width: 25%; }
-    .posts-top .post:not(:first-of-type) .post-image {
-      height: 125px; }
+  .posts-top {
+    border-bottom: solid 1px #888;
+    margin-bottom: 30px; }
+    .posts-top .post:first-of-type {
+      width: 50%; }
+    .posts-top .post:not(:first-of-type) {
+      width: 25%; }
+      .posts-top .post:not(:first-of-type) .post-image {
+        height: 125px; }
 
   .posts-bottom .post {
     width: 33.3333%; } }

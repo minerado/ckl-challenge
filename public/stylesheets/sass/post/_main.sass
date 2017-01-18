@@ -67,6 +67,7 @@ $author-height-small: 25px
             line-height: $author-height-small
 
     .posts-top
+        overflow: hidden
 
         .post:first-of-type
             width: 100%
@@ -87,6 +88,8 @@ $author-height-small: 25px
 // Desktop screens
 @media only screen and (min-width: 1170px)
     .posts-top
+        border-bottom: solid 1px $grey
+        margin-bottom: 30px
 
         .post
             &:first-of-type
