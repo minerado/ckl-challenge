@@ -111,7 +111,27 @@ main {
   display: none; }
 
 @media only screen and (min-width: 750px) {
-  .posts-top .post:first-child .post-content {
-    display: none; } }
+  .post {
+    float: left;
+    width: 50%; }
+    .post .post-title {
+      font-size: 1.3rem; }
+    .post .post-author__image {
+      height: 25px;
+      width: 25px; }
+    .post .post-author__name {
+      line-height: 25px; }
+
+  .posts-top .post:first-of-type {
+    width: 100%; }
+    .posts-top .post:first-of-type .post-content {
+      display: none; }
+    .posts-top .post:first-of-type .post-title {
+      font-size: 1.8rem; }
+    .posts-top .post:first-of-type .post-author__image {
+      height: 35px;
+      width: 35px; }
+    .posts-top .post:first-of-type .post-author__name {
+      line-height: 35px; } }
 
 /*# sourceMappingURL=bundle.css.map */

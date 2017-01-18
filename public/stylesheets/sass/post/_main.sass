@@ -1,6 +1,7 @@
 @import 'tags'
 
 $author-height: 35px
+$author-height-small: 25px
 
 .post
     margin-bottom: 3 * $space-default
@@ -51,9 +52,35 @@ $author-height: 35px
 
 // Tablet screens
 @media only screen and (min-width: 750px)
-    .posts-top
+    .post
+        float: left
+        width: 50%
+    
+        .post-title
+            font-size: $font-big
+
+        .post-author__image
+            height: $author-height-small
+            width: $author-height-small
         
-        .post:first-child
-            
+        .post-author__name
+            line-height: $author-height-small
+
+    .posts-top
+
+        .post:first-of-type
+            width: 100%
+
             .post-content
                 display: none
+
+            .post-title
+                font-size: $font-huge
+
+            .post-author__image
+                height: $author-height
+                width: $author-height
+            
+            .post-author__name
+                line-height: $author-height
+        
