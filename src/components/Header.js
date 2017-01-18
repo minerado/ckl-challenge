@@ -1,7 +1,11 @@
 import React from 'react'
 
+import classNames from 'classnames'
 
-const Header = () => (
+
+let Header = ({
+    menu,
+}) => (
     <header className='header'>
         <div className='header-wrapper'>
             <div className='header-menu'>
@@ -14,7 +18,7 @@ const Header = () => (
                 </div>
             </div>
             
-            <nav className='header-items'>
+            <nav className={classNames('header-items', !menu && 'header-items-hide')}>
                 <div className='header-item'>
                     POLITICS
                 </div>
