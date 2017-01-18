@@ -42,6 +42,11 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
+.line-clamp-8 {
+  display: -webkit-box;
+  -webkit-line-clamp: 8;
+  -webkit-box-orient: vertical; }
+
 html {
   font-family: "Open Sans", sans-serif;
   font-size: 12px; }
@@ -105,7 +110,8 @@ main {
       font-style: italic; }
   .post-content {
     line-height: 1.5;
-    margin-top: 15px; }
+    margin-top: 15px;
+    overflow: hidden; }
 
 .posts-bottom .post-image {
   display: none; }
