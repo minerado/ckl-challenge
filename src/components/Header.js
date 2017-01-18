@@ -21,7 +21,7 @@ let Header = ({
 
             <div className='header-logo'>
                 <div className='header-logo__icon'>
-                    <Link to='all'
+                    <Link to='/'
                           className='anchor-null header-logo__icon-anchor'>
                           C
                     </Link>
