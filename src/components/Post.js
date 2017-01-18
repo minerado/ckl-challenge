@@ -11,7 +11,7 @@ const Post = ({
     text,
     title,
 }) => (
-    <article className='post'>
+    <article className='post a-scale-and-fade-in'>
         <div className={classNames('post-tag', `post-tag-${tag.toLowerCase()}`)}>
             {tag.toUpperCase()}
         </div>
