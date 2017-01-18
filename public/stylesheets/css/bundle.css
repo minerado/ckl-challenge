@@ -133,7 +133,6 @@ main {
   .post-author {
     overflow: hidden; }
     .post-author__image {
-      background-image: url("http://www.politize.com.br/wp-content/uploads/2015/12/brazil-dilma-rousseff.jpg");
       background-position: center;
       background-size: cover;
       border-radius: 50%;
