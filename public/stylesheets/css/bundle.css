@@ -60,5 +60,8 @@ html {
   background-position: center;
   background-size: cover;
   height: 260px; }
+.post-tag {
+  font-size: 0.8rem;
+  margin-bottom: 10px; }
 
 /*# sourceMappingURL=bundle.css.map */
