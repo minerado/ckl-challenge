@@ -1,10 +1,19 @@
 import React from 'react'
+import { connect } from 'react-redux'
+
+import classNames from 'classnames'
+
+import { toggleMenu } from '../actions'
 
 
-const Header = () => (
+let Header = ({
+    toggleMenu,
+    menu,
+}) => (
     <header className='header'>
         <div className='header-wrapper'>
-            <div className='header-menu'>
+            <div className='header-menu'
+                 onClick={() => toggleMenu(menu)}>
                 <i className='fa fa-bars'></i>
             </div>
 
@@ -14,7 +23,7 @@ const Header = () => (
                 </div>
             </div>
             
-            <nav className='header-items'>
+            <nav className={classNames('header-items', !menu && 'header-items-hide')}>
                 <div className='header-item'>
                     POLITICS
                 </div>
@@ -34,6 +43,19 @@ const Header = () => (
         </div>
     </header>
 )
+
+const mapStateToProps = (state) => {
+    const menu = state.menu
+
+    return {
+        menu,
+    }
+}
+
+Header = connect(
+    mapStateToProps,
+    { toggleMenu },
+)(Header)
 
 
 export default Header

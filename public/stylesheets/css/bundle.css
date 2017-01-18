@@ -65,6 +65,8 @@ main {
     width: 55px; }
   .header-items {
     margin-left: 15px; }
+    .header-items-hide {
+      display: none; }
   .header-item {
     line-height: 55px; }
   .header-logo {
@@ -97,6 +99,8 @@ main {
     display: none; }
   .header-items {
     float: right; }
+    .header-items-hide {
+      display: block; }
   .header-item {
     float: left;
     margin-left: 30px; }
