@@ -1,10 +1,14 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 
-import CklApp from './components/CklApp'
+import configureStore from './store'
 
+import Root from './components/Root'
+
+
+const store = configureStore()
 
 ReactDOM.render(
-    <CklApp />,
+    <Root store={store} />,
     document.getElementById('root')
 )
