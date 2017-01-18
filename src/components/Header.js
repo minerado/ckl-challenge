@@ -44,13 +44,9 @@ let Header = ({
     </header>
 )
 
-const mapStateToProps = (state) => {
-    const menu = state.menu
-
-    return {
-        menu,
-    }
-}
+const mapStateToProps = (state) => ({
+    menu: state.menu
+})
 
 Header = connect(
     mapStateToProps,
