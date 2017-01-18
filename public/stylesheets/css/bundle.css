@@ -56,4 +56,9 @@ html {
   .header-item {
     line-height: 55px; }
 
+.post-image {
+  background-position: center;
+  background-size: cover;
+  height: 260px; }
+
 /*# sourceMappingURL=bundle.css.map */
