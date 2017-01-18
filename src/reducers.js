@@ -19,8 +19,19 @@ const posts = (state = [], action) => {
     }
 }
 
+const is_fetching = (state = false, action) => {
+    switch (action.type) {
+        case 'REQUEST_POSTS':
+            return true
+        case 'RECEIVE_POSTS':
+            return false
+        default:
+            return state
+    }
+}
 
 export default combineReducers({
+    is_fetching,
     menu,
     posts,
 })
