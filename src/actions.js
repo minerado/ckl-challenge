@@ -16,5 +16,7 @@ export const toggleMenu = (menu) => ({
 })
 
 export const fetchPosts = (filter) => (dispatch, getState ) => {
+    dispatch(requestPosts())
+
     return getFilteredPosts(filter).then(posts => dispatch(receivePosts(posts)))
 }
