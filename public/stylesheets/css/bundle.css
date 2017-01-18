@@ -60,6 +60,17 @@ main {
   .header-item {
     line-height: 55px; }
 
+.post-tag-politics {
+  color: #ca3c3c; }
+.post-tag-science {
+  color: #1cb841; }
+.post-tag-sports {
+  color: #df7514; }
+.post-tag-tech {
+  color: #42b8dd; }
+.post-tag-business {
+  color: #444; }
+
 .post {
   margin-bottom: 45px;
   padding: 0 15px; }

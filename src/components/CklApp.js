@@ -33,7 +33,7 @@ const CklApp = () => (
         <main>
             <section className='posts-top'>
                 <article className='post'>
-                    <div className='post-tag'>
+                    <div className='post-tag post-tag-politics'>
                         POLITICS
                     </div>
 
@@ -61,7 +61,7 @@ const CklApp = () => (
                 </article>
 
                 <article className='post'>
-                    <div className='post-tag'>
+                    <div className='post-tag post-tag-business'>
                         BUSINESS
                     </div>
 
@@ -89,7 +89,7 @@ const CklApp = () => (
                 </article>
 
                 <article className='post'>
-                    <div className='post-tag'>
+                    <div className='post-tag post-tag-tech'>
                         TECH
                     </div>
 
@@ -119,7 +119,7 @@ const CklApp = () => (
 
             <section className='posts-bottom'>
                 <article className='post'>
-                    <div className='post-tag'>
+                    <div className='post-tag post-tag-science'>
                         SCIENCE
                     </div>
 
@@ -147,7 +147,7 @@ const CklApp = () => (
                 </article>
 
                 <article className='post'>
-                    <div className='post-tag'>
+                    <div className='post-tag post-tag-sports'>
                         SPORTS
                     </div>
 
@@ -175,7 +175,7 @@ const CklApp = () => (
                 </article>
 
                 <article className='post'>
-                    <div className='post-tag'>
+                    <div className='post-tag post-tag-politics'>
                         POLITICS
                     </div>
 
