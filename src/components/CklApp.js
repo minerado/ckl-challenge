@@ -6,7 +6,7 @@ const CklApp = () => (
         <header className='header'>
             <div className='header-wrapper'>
                 <div className='header-menu'>
-                    Menu
+                    <i className='fa fa-bars'></i>
                 </div>
                 
                 <nav className='header-items'>

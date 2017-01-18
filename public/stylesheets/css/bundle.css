@@ -48,6 +48,7 @@ html {
 .header {
   border-bottom: solid 1px #444; }
   .header-menu {
+    font-size: 28px;
     line-height: 55px;
     text-align: center;
     width: 55px; }
