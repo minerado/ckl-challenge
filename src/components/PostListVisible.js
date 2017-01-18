@@ -1,5 +1,5 @@
-import React, { Component } from 'react'
 import { connect } from 'react-redux'
+import { withRouter } from 'react-router'
 
 import { separatePosts } from '../libs/post_lib'
 import db from '../db'
@@ -7,24 +7,18 @@ import db from '../db'
 import PostList from './PostList'
 
 
-class PostListVisible extends Component {
-    render () {
-        return (
-            <PostList
-                {...this.props}
-            />
-        )
+const mapStateToProps = (state, { params }) => {
+    const visible_posts = db.filter((post) => post.tag.toLowerCase() === params.filter.toLowerCase())
+
+    return {
+        ...separatePosts(visible_posts),
     }
 }
 
-const mapStateToProps = () => ({
-    ...separatePosts(db)
-})
-
-PostListVisible = connect(
+const PostListVisible = withRouter(connect(
     mapStateToProps,
     null,
-)(PostListVisible)
+)(PostList))
 
 
 export default PostListVisible
