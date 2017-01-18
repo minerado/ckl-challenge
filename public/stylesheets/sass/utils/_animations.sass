@@ -1,0 +1,26 @@
+@keyframes scale-and-fade-in
+    0%
+        transform: scale(.95)
+        opacity: 0
+    100%
+        transform: scale(1)
+        opacity: 1
+
+@keyframes backgroundLoader
+    0%
+        background-position: -1000px 0
+
+    100%
+        background-position: 1000px 0
+
+.a-scale-and-fade-in
+    animation-duration: .5s
+    animation-name: scale-and-fade-in
+
+.a-background-loading
+    animation-duration: 5s
+    animation-fill-mode: forwards
+    animation-iteration-count: infinite
+    animation-name: backgroundLoader
+    animation-timing-function: linear
+    background: linear-gradient(to right, $grey-light 5%, #e5e5e5 18%, #e5e5e5 30%, $grey-light 50%)

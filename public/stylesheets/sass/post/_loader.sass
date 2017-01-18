@@ -1,0 +1,94 @@
+.post-loader-div--small
+    background-color: white
+    height: 5px
+
+.post-loader-div--medium
+    background-color: white
+    height: 12px
+
+.post-loader-div--large
+    background-color: white
+    height: 15px
+
+.post-loader-wrapper
+    padding: 0 $space-default
+
+.post-loader
+    background-color: $grey
+    margin-bottom: 3 * $space-default
+
+    &__tag
+        background-color: white
+        height: 9px
+        margin-left: 50px
+
+    &__image
+        height: 270px
+    
+    &__title
+        background-color: white
+        height: 25px
+        margin-left: 760px
+
+        &--sub
+            margin-left: 40%
+    
+    &__author
+
+        &-name-wrapper
+            margin-left: 35px
+        
+        &-name
+            border-left: solid 5px white
+        
+            &-inner
+                background-color: white
+                height: 11px
+                margin-left: 20%
+
+    
+    &__content
+
+        &-row
+            background-color: white
+            height: 15px
+        
+            &:nth-of-type(1)
+                margin-left: 80%
+        
+            &:nth-of-type(3)
+                margin-left: 90%
+        
+            &:nth-of-type(5)
+                margin-left: 70%
+        
+            &:nth-of-type(7)
+                margin-left: 88%
+        
+            &:nth-of-type(9)
+                margin-left: 20%
+
+// Desktop screens
+@media only screen and (min-width: 1170px)
+    .post-loader-list
+        .post-loader-wrapper
+            float: left
+
+        .post-loader-wrapper:first-child
+            width: 50%
+
+            .post-loader
+
+                &__content
+                    display: none
+
+        .post-loader-wrapper:not(:first-child)
+            width: 25%
+
+            .post-loader
+            
+                &__image
+                    height: 127px
+                
+                &__title
+                    height: 15px

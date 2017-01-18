@@ -6,6 +6,7 @@ import { separatePosts } from '../libs/post_lib'
 import { fetchPosts } from '../actions'
 
 import PostList from './PostList'
+import PostLoaderList from './PostLoaderList'
 
 
 class PostListVisible extends Component {
@@ -24,15 +25,9 @@ class PostListVisible extends Component {
     }
     
     render () {
-        if (this.props.is_fetching) {
-            return <div>Loading</div>
-        }
+        if (this.props.is_fetching) return <PostLoaderList />
 
-        return (
-            <PostList
-                {...this.props}
-            />
-        )
+        return <PostList {...this.props} />
     }
 }
 
