@@ -1,16 +1,18 @@
 import React from 'react'
 
+import classNames from 'classnames'
+
 
 const Post = ({
     author_image,
     author_name,
-    image_url,
+    image,
     tag,
     text,
     title,
 }) => (
     <article className='post'>
-        <div className='post-tag post-tag-{tag.toLowerCase()}'>
+        <div className={classNames('post-tag', `post-tag-${tag.toLowerCase()}`)}>
             {tag.toUpperCase()}
         </div>
 
