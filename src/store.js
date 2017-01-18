@@ -1,8 +1,16 @@
-import { createStore } from 'redux'
+import { createStore, applyMiddleware } from 'redux'
+import createLogger from 'redux-logger'
 
 import cklApp from './reducers'
 
 
 export default () => {
-    return createStore(cklApp)
+    const middlewares = [
+        createLogger()
+    ]
+
+    return createStore(
+        cklApp,
+        applyMiddleware(...middlewares)
+    )
 }
