@@ -18,7 +18,7 @@ const users = [
     },
 ]
 
-export const db = [
+const db = [
     {
         id: 1,
         title: `Obama Offers Hopeful Vision While Noting Nation's Fears`,
@@ -68,3 +68,6 @@ export const db = [
         user: users[2],
     },
 ]
+
+
+export default db
