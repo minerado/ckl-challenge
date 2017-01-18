@@ -52,7 +52,8 @@ html {
   font-size: 12px; }
 
 main {
-  margin-top: 60px; }
+  margin: 60px auto 0;
+  max-width: 1024px; }
 
 .header {
   border-bottom: solid 1px #444; }
