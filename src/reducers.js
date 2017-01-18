@@ -4,7 +4,7 @@ import { combineReducers } from 'redux'
 const menu = (state = false, action) => {
     switch (action.type) {
         case 'TOGGLE_MENU':
-            return !state
+            return action.menu
         default:
             return state
     }
