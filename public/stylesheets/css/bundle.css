@@ -84,5 +84,8 @@ html {
     line-height: 35px;
     margin-left: 5px;
     font-style: italic; }
+.post-content {
+  line-height: 1.5;
+  margin-top: 15px; }
 
 /*# sourceMappingURL=bundle.css.map */
