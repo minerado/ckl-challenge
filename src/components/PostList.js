@@ -1,9 +1,7 @@
 import React from 'react'
 
-import DB from '../db'
-import { separatePosts } from '../libs/post_lib'
-
 import Post from './Post'
+
 
 const renderPost = (post) => (
     <Post
@@ -17,14 +15,17 @@ const renderPost = (post) => (
     />
 )
 
-const PostList = () => (
+const PostList = ({
+    main_posts,
+    second_posts,
+}) => (
     <main>
         <section className='posts-top'>
-            {separatePosts(DB).main_posts.map((p, index) => renderPost(p))}
+            {main_posts.map((p, index) => renderPost(p))}
         </section>
 
         <section className='posts-bottom'>
-            {separatePosts(DB).second_posts.map((p, index) => renderPost(p))}
+            {second_posts.map((p, index) => renderPost(p))}
         </section>
     </main>
 )

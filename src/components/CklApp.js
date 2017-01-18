@@ -1,13 +1,13 @@
 import React from 'react'
 
 import Header from './Header'
-import PostList from './PostList'
+import PostListVisible from './PostListVisible'
 
 
 const CklApp = () => (
     <div>
         <Header />
-        <PostList />
+        <PostListVisible />
     </div>
 )
 
