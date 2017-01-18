@@ -60,36 +60,39 @@ main {
   .header-item {
     line-height: 55px; }
 
-.post-image {
-  background-position: center;
-  background-size: cover;
-  height: 260px; }
-.post-tag {
-  font-size: 0.8rem;
-  margin-bottom: 10px; }
-.post-title {
-  font-size: 1.8rem;
-  line-height: 1.2;
-  margin: 15px 0; }
-.post-author {
-  overflow: hidden; }
-  .post-author__image {
-    background-image: url("http://www.politize.com.br/wp-content/uploads/2015/12/brazil-dilma-rousseff.jpg");
+.post {
+  margin-bottom: 45px;
+  padding: 0 15px; }
+  .post-image {
     background-position: center;
     background-size: cover;
-    border-radius: 50%;
-    float: left;
-    height: 35px;
-    width: 35px; }
-  .post-author__name {
-    color: #888;
-    float: left;
+    height: 260px; }
+  .post-tag {
     font-size: 0.8rem;
-    line-height: 35px;
-    margin-left: 5px;
-    font-style: italic; }
-.post-content {
-  line-height: 1.5;
-  margin-top: 15px; }
+    margin-bottom: 10px; }
+  .post-title {
+    font-size: 1.8rem;
+    line-height: 1.2;
+    margin: 15px 0; }
+  .post-author {
+    overflow: hidden; }
+    .post-author__image {
+      background-image: url("http://www.politize.com.br/wp-content/uploads/2015/12/brazil-dilma-rousseff.jpg");
+      background-position: center;
+      background-size: cover;
+      border-radius: 50%;
+      float: left;
+      height: 35px;
+      width: 35px; }
+    .post-author__name {
+      color: #888;
+      float: left;
+      font-size: 0.8rem;
+      line-height: 35px;
+      margin-left: 5px;
+      font-style: italic; }
+  .post-content {
+    line-height: 1.5;
+    margin-top: 15px; }
 
 /*# sourceMappingURL=bundle.css.map */
