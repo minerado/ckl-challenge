@@ -1,3 +1,5 @@
+$author-height: 35px
+
 .post
 
     &-image
@@ -13,3 +15,23 @@
         font-size: $font-huge
         line-height: 1.2
         margin: $space-default 0
+    
+    &-author
+        overflow: hidden
+
+        &__image
+            background-image: url('http://www.politize.com.br/wp-content/uploads/2015/12/brazil-dilma-rousseff.jpg')
+            background-position: center
+            background-size: cover
+            border-radius: 50%
+            float: left
+            height: $author-height
+            width: $author-height
+
+        &__name
+            color: $grey
+            float: left
+            font-size: $font-small
+            line-height: $author-height
+            margin-left: $space-smaller
+            font-style: italic

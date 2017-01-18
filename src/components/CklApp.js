@@ -48,9 +48,7 @@ const CklApp = () => (
                     </div>
 
                     <div className="post-author">
-                        <div className="post-author__image">
-                            AUTHOR IMAGE
-                        </div>
+                        <div className="post-author__image"></div>
 
                         <div className="post-author__name">
                             by AUTHOR NAME
