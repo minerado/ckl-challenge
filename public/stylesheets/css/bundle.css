@@ -56,7 +56,8 @@ main {
   max-width: 1024px; }
 
 .header {
-  border-bottom: solid 1px #444; }
+  border-bottom: solid 1px #444;
+  position: relative; }
   .header-menu {
     font-size: 28px;
     line-height: 55px;
@@ -66,6 +67,25 @@ main {
     margin-left: 15px; }
   .header-item {
     line-height: 55px; }
+  .header-logo {
+    height: 55px;
+    left: 50%;
+    position: absolute;
+    top: 0;
+    transform: translate(-50%, 0);
+    width: 45px; }
+    .header-logo__icon {
+      border: solid 1px #444;
+      border-radius: 4px;
+      font-size: 25px;
+      font-weight: bold;
+      left: 50%;
+      line-height: 45px;
+      text-align: center;
+      transform: translate(-50%, -50%);
+      position: absolute;
+      top: 50%;
+      width: 45px; }
 
 @media only screen and (min-width: 1170px) {
   .header-wrapper {

@@ -1,7 +1,9 @@
 $header-height: 55px
+$logo-height: 45px
 
 .header
     border-bottom: solid 1px $black
+    position: relative
 
     &-menu
         font-size: 28px
@@ -14,6 +16,27 @@ $header-height: 55px
 
     &-item
         line-height: $header-height
+    
+    &-logo
+        height: 55px
+        left: 50%
+        position: absolute
+        top: 0
+        transform: translate(-50%, 0)
+        width: $logo-height
+
+        &__icon
+            border: solid 1px $black
+            border-radius: 4px
+            font-size: 25px
+            font-weight: bold
+            left: 50%
+            line-height: $logo-height
+            text-align: center
+            transform: translate(-50%, -50%)
+            position: absolute
+            top: 50%
+            width: $logo-height
 
 // Desktop screens
 @media only screen and (min-width: 1170px)

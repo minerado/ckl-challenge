@@ -8,6 +8,12 @@ const CklApp = () => (
                 <div className='header-menu'>
                     <i className='fa fa-bars'></i>
                 </div>
+
+                <div className='header-logo'>
+                    <div className='header-logo__icon'>
+                        C
+                    </div>
+                </div>
                 
                 <nav className='header-items'>
                     <div className='header-item'>
