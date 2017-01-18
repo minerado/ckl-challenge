@@ -2,9 +2,9 @@ import React from 'react'
 import { connect } from 'react-redux'
 
 import classNames from 'classnames'
-
 import { toggleMenu } from '../actions'
 
+import HeaderItem from './HeaderItem'
 
 let Header = ({
     toggleMenu,
@@ -24,21 +24,11 @@ let Header = ({
             </div>
             
             <nav className={classNames('header-items', !menu && 'header-items-hide')}>
-                <div className='header-item'>
-                    POLITICS
-                </div>
-                <div className='header-item'>
-                    BUSINESS
-                </div>
-                <div className='header-item'>
-                    TECH
-                </div>
-                <div className='header-item'>
-                    SCIENCE
-                </div>
-                <div className='header-item'>
-                    SPORTS
-                </div>
+                <HeaderItem tag='politics' />
+                <HeaderItem tag='business' />
+                <HeaderItem tag='tech' />
+                <HeaderItem tag='science' />
+                <HeaderItem tag='sports' />
             </nav>
         </div>
     </header>
