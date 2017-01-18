@@ -5,6 +5,8 @@ const menu = (state = false, action) => {
     switch (action.type) {
         case 'TOGGLE_MENU':
             return action.menu
+        case 'REQUEST_POSTS':
+            return false
         default:
             return state
     }
