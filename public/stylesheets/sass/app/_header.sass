@@ -1,0 +1,64 @@
+$header-height: 55px
+$logo-height: 45px
+
+.header
+    border-bottom: solid 1px $black
+    position: relative
+
+    &-menu
+        font-size: 28px
+        line-height: $header-height
+        text-align: center
+        width: $header-height
+
+    &-items
+        margin-left: $space-default
+
+    &-item
+        line-height: $header-height
+    
+    &-logo
+        height: 55px
+        left: 50%
+        position: absolute
+        top: 0
+        transform: translate(-50%, 0)
+        width: $logo-height
+
+        &__icon
+            border: solid 1px $black
+            border-radius: 4px
+            font-size: 25px
+            font-weight: bold
+            left: 50%
+            line-height: $logo-height
+            text-align: center
+            transform: translate(-50%, -50%)
+            position: absolute
+            top: 50%
+            width: $logo-height
+
+// Desktop screens
+@media only screen and (min-width: 1170px)
+    .header
+        &-wrapper
+            margin: auto
+            overflow: hidden
+            padding: 0 $space-default
+            width: $app-width
+
+        &-menu
+            display: none
+
+        &-items
+            float: right
+
+        &-item
+            float: left
+            margin-left: 30px
+
+        &-logo
+            float: left
+            left: 0
+            position: relative
+            transform: translate(0, 0)

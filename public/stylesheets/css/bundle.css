@@ -11,6 +11,7 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
   border: 0;
@@ -41,8 +42,156 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
+.line-clamp-8 {
+  display: -webkit-box;
+  -webkit-line-clamp: 8;
+  -webkit-box-orient: vertical; }
+
 html {
   font-family: "Open Sans", sans-serif;
   font-size: 12px; }
+
+main {
+  margin: 60px auto 0;
+  max-width: 1024px; }
+
+.header {
+  border-bottom: solid 1px #444;
+  position: relative; }
+  .header-menu {
+    font-size: 28px;
+    line-height: 55px;
+    text-align: center;
+    width: 55px; }
+  .header-items {
+    margin-left: 15px; }
+  .header-item {
+    line-height: 55px; }
+  .header-logo {
+    height: 55px;
+    left: 50%;
+    position: absolute;
+    top: 0;
+    transform: translate(-50%, 0);
+    width: 45px; }
+    .header-logo__icon {
+      border: solid 1px #444;
+      border-radius: 4px;
+      font-size: 25px;
+      font-weight: bold;
+      left: 50%;
+      line-height: 45px;
+      text-align: center;
+      transform: translate(-50%, -50%);
+      position: absolute;
+      top: 50%;
+      width: 45px; }
+
+@media only screen and (min-width: 1170px) {
+  .header-wrapper {
+    margin: auto;
+    overflow: hidden;
+    padding: 0 15px;
+    width: 1024px; }
+  .header-menu {
+    display: none; }
+  .header-items {
+    float: right; }
+  .header-item {
+    float: left;
+    margin-left: 30px; }
+  .header-logo {
+    float: left;
+    left: 0;
+    position: relative;
+    transform: translate(0, 0); } }
+.post-tag-politics {
+  color: #ca3c3c; }
+.post-tag-science {
+  color: #1cb841; }
+.post-tag-sports {
+  color: #df7514; }
+.post-tag-tech {
+  color: #42b8dd; }
+.post-tag-business {
+  color: #444; }
+
+.post {
+  margin-bottom: 45px;
+  padding: 0 15px; }
+  .post-image {
+    background-position: center;
+    background-size: cover;
+    height: 260px; }
+  .post-tag {
+    font-size: 0.8rem;
+    margin-bottom: 10px; }
+  .post-title {
+    font-size: 1.8rem;
+    line-height: 1.2;
+    margin: 15px 0; }
+  .post-author {
+    overflow: hidden; }
+    .post-author__image {
+      background-image: url("http://www.politize.com.br/wp-content/uploads/2015/12/brazil-dilma-rousseff.jpg");
+      background-position: center;
+      background-size: cover;
+      border-radius: 50%;
+      float: left;
+      height: 35px;
+      width: 35px; }
+    .post-author__name {
+      color: #888;
+      float: left;
+      font-size: 0.8rem;
+      line-height: 35px;
+      margin-left: 5px;
+      font-style: italic; }
+  .post-content {
+    line-height: 1.5;
+    margin-top: 15px;
+    overflow: hidden; }
+
+.posts-bottom .post-image {
+  display: none; }
+
+@media only screen and (min-width: 750px) {
+  .post {
+    float: left;
+    width: 50%; }
+    .post .post-title {
+      font-size: 1.3rem; }
+    .post .post-author__image {
+      height: 25px;
+      width: 25px; }
+    .post .post-author__name {
+      line-height: 25px; }
+
+  .posts-top {
+    overflow: hidden; }
+    .posts-top .post:first-of-type {
+      width: 100%; }
+      .posts-top .post:first-of-type .post-content {
+        display: none; }
+      .posts-top .post:first-of-type .post-title {
+        font-size: 1.8rem; }
+      .posts-top .post:first-of-type .post-author__image {
+        height: 35px;
+        width: 35px; }
+      .posts-top .post:first-of-type .post-author__name {
+        line-height: 35px; } }
+@media only screen and (min-width: 1170px) {
+  .posts-top {
+    border-bottom: solid 1px #888;
+    margin-bottom: 30px; }
+    .posts-top .post:first-of-type {
+      width: 50%; }
+    .posts-top .post:not(:first-of-type) {
+      width: 25%; }
+      .posts-top .post:not(:first-of-type) .post-image {
+        height: 125px; }
+
+  .posts-bottom .post {
+    width: 33.3333%; } }
 
 /*# sourceMappingURL=bundle.css.map */

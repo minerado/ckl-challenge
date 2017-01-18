@@ -1,0 +1,108 @@
+@import 'tags'
+
+$author-height: 35px
+$author-height-small: 25px
+
+.post
+    margin-bottom: 3 * $space-default
+    padding: 0 $space-default
+
+    &-image
+        background-position: center
+        background-size: cover
+        height: 260px
+
+    &-tag
+        font-size: $font-small
+        margin-bottom: $space-small
+    
+    &-title
+        font-size: $font-huge
+        line-height: 1.2
+        margin: $space-default 0
+    
+    &-author
+        overflow: hidden
+
+        &__image
+            background-image: url('http://www.politize.com.br/wp-content/uploads/2015/12/brazil-dilma-rousseff.jpg')
+            background-position: center
+            background-size: cover
+            border-radius: 50%
+            float: left
+            height: $author-height
+            width: $author-height
+
+        &__name
+            color: $grey
+            float: left
+            font-size: $font-small
+            line-height: $author-height
+            margin-left: $space-smaller
+            font-style: italic
+
+    &-content
+        line-height: 1.5
+        margin-top: $space-default
+        overflow: hidden
+
+.posts-bottom
+
+    .post-image
+        display: none
+
+// Tablet screens
+@media only screen and (min-width: 750px)
+    .post
+        float: left
+        width: 50%
+    
+        .post-title
+            font-size: $font-big
+
+        .post-author__image
+            height: $author-height-small
+            width: $author-height-small
+        
+        .post-author__name
+            line-height: $author-height-small
+
+    .posts-top
+        overflow: hidden
+
+        .post:first-of-type
+            width: 100%
+
+            .post-content
+                display: none
+
+            .post-title
+                font-size: $font-huge
+
+            .post-author__image
+                height: $author-height
+                width: $author-height
+            
+            .post-author__name
+                line-height: $author-height
+
+// Desktop screens
+@media only screen and (min-width: 1170px)
+    .posts-top
+        border-bottom: solid 1px $grey
+        margin-bottom: 30px
+
+        .post
+            &:first-of-type
+                width: 50%
+            
+            &:not(:first-of-type)
+                width: 25%
+
+                .post-image
+                    height: 125px
+    
+    .posts-bottom
+
+        .post
+            width: 33.3333%
