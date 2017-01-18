@@ -14,3 +14,22 @@ $header-height: 55px
 
     &-item
         line-height: $header-height
+
+// Desktop screens
+@media only screen and (min-width: 1170px)
+    .header
+        &-wrapper
+            margin: auto
+            overflow: hidden
+            padding: 0 $space-default
+            width: $app-width
+
+        &-menu
+            display: none
+
+        &-items
+            float: right
+
+        &-item
+            float: left
+            margin-left: 30px

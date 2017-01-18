@@ -67,6 +67,19 @@ main {
   .header-item {
     line-height: 55px; }
 
+@media only screen and (min-width: 1170px) {
+  .header-wrapper {
+    margin: auto;
+    overflow: hidden;
+    padding: 0 15px;
+    width: 1024px; }
+  .header-menu {
+    display: none; }
+  .header-items {
+    float: right; }
+  .header-item {
+    float: left;
+    margin-left: 30px; } }
 .post-tag-politics {
   color: #ca3c3c; }
 .post-tag-science {
