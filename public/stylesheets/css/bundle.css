@@ -45,6 +45,9 @@ html {
   font-family: "Open Sans", sans-serif;
   font-size: 12px; }
 
+main {
+  margin-top: 60px; }
+
 .header {
   border-bottom: solid 1px #444; }
   .header-menu {
