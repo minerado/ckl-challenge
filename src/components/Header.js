@@ -1,9 +1,11 @@
 import React from 'react'
 import { connect } from 'react-redux'
+import { Link } from 'react-router'
 
 import classNames from 'classnames'
-
 import { toggleMenu } from '../actions'
+
+import HeaderItem from './HeaderItem'
 
 
 let Header = ({
@@ -19,38 +21,27 @@ let Header = ({
 
             <div className='header-logo'>
                 <div className='header-logo__icon'>
-                    C
+                    <Link to='/'
+                          className='anchor-null header-logo__icon-anchor'>
+                          C
+                    </Link>
                 </div>
             </div>
             
             <nav className={classNames('header-items', !menu && 'header-items-hide')}>
-                <div className='header-item'>
-                    POLITICS
-                </div>
-                <div className='header-item'>
-                    BUSINESS
-                </div>
-                <div className='header-item'>
-                    TECH
-                </div>
-                <div className='header-item'>
-                    SCIENCE
-                </div>
-                <div className='header-item'>
-                    SPORTS
-                </div>
+                <HeaderItem tag='politics' />
+                <HeaderItem tag='business' />
+                <HeaderItem tag='tech' />
+                <HeaderItem tag='science' />
+                <HeaderItem tag='sports' />
             </nav>
         </div>
     </header>
 )
 
-const mapStateToProps = (state) => {
-    const menu = state.menu
-
-    return {
-        menu,
-    }
-}
+const mapStateToProps = (state) => ({
+    menu: state.menu
+})
 
 Header = connect(
     mapStateToProps,
