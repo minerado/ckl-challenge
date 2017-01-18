@@ -24,6 +24,10 @@ class PostListVisible extends Component {
     }
     
     render () {
+        if (this.props.is_fetching) {
+            return <div>Loading</div>
+        }
+
         return (
             <PostList
                 {...this.props}
@@ -35,6 +39,7 @@ class PostListVisible extends Component {
 const mapStateToProps = (state, { params }) => ({
     ...separatePosts(state.posts),
     filter: params.filter,
+    is_fetching: state.is_fetching,
 })
 
 PostListVisible = withRouter(connect(
