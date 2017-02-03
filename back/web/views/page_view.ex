@@ -1,12 +1,12 @@
 defmodule CklNews.PageView do
   use CklNews.Web, :view
 
-  def js(conn) do
+  def js(conn, name) do
     case Mix.env do
       :dev ->
-        "http://localhost:3000/bundle.js"
+        "http://localhost:3000/js/" <> name <> ".js"
       :prod ->
-        static_path(conn, "/js/bundle.js")
+        static_path(conn, "/js/" <> name <> ".js")
     end
   end
 

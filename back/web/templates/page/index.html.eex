@@ -15,5 +15,6 @@
         <div id="root"></div>
     </body>
 
-    <script src="<%= js(@conn) %>"></script> 
+    <script src='<%= js(@conn, "vendor") %>'></script> 
+    <script src='<%= js(@conn, "bundle") %>'></script> 
 </html>
