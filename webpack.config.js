@@ -8,6 +8,14 @@ const config = {
         path: path.resolve(__dirname, 'builds'),
         filename: '[name].js',
     },
+    module: {
+        rules: [
+            {
+                use: 'babel-loader',
+                test: /\.js$/,
+            },
+        ],
+    },
 }
 
 module.exports = config
