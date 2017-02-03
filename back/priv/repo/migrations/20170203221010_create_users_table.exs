@@ -14,8 +14,6 @@ defmodule CklNews.Repo.Migrations.CreateUsersTable do
   end
 
   def down do
-    execute "
-      DROP TABLE users;
-    "
+    execute "DROP TABLE users;"
   end
 end
