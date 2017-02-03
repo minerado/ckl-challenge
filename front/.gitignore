@@ -17,3 +17,6 @@ npm-debug.log
 # sass cache and mapping
 .sass-cache
 *.css.map
+
+# webpack builds
+builds
