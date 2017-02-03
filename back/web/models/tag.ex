@@ -1,4 +1,4 @@
-defmodule CklNews.User do
+defmodule CklNews.Tag do
     use CklNews.Web, :model
 
     schema "tags" do
