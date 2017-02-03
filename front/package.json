@@ -8,8 +8,13 @@
     "babel-preset-env": "^1.1.8",
     "babel-preset-react": "^6.22.0",
     "babel-preset-stage-0": "^6.22.0",
+    "css-loader": "^0.26.1",
+    "extract-text-webpack-plugin": "^2.0.0-rc.2",
+    "node-sass": "^4.5.0",
     "redux-logger": "^2.7.4",
-    "webpack": "^2.2.0"
+    "sass-loader": "^4.1.1",
+    "webpack": "^2.2.0",
+    "webpack-dev-server": "^2.2.0"
   },
   "dependencies": {
     "classnames": "^2.2.5",
@@ -21,6 +26,7 @@
     "redux-thunk": "^2.2.0"
   },
   "scripts": {
-    "build": "webpack"
+    "build": "webpack",
+    "dev": "webpack-dev-server --port 3000"
   }
 }

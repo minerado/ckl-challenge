@@ -5,6 +5,8 @@ import configureStore from './store'
 
 import Root from './components/Root'
 
+import '../public/stylesheets/sass/bundle.sass'
+
 
 const store = configureStore()
 
