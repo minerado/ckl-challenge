@@ -3,7 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "devDependencies": {
-    "redux-logger": "^2.7.4"
+    "redux-logger": "^2.7.4",
+    "webpack": "^2.2.0"
   },
   "dependencies": {
     "classnames": "^2.2.5",
