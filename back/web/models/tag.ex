@@ -4,6 +4,8 @@ defmodule CklNews.Tag do
     schema "tags" do
         field :name, :string
         field :color, :string
+
+        has_many :posts, CklNews.Post
     end
 
     def changeset(struct, params \\ %{}) do
