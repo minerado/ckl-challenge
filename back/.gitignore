@@ -17,3 +17,5 @@ erl_crash.dump
 
 # Files built by webpack
 /priv/static/
+bundle.css
+bundle.js
