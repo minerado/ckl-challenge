@@ -2,12 +2,15 @@ import React, { Component } from 'react'
 import { connect } from 'react-redux'
 import { withRouter } from 'react-router'
 
-import { separatePosts } from '../libs/post_lib'
 import { fetchPosts } from '../actions'
-
 import PostList from './PostList'
 import PostLoaderList from './PostLoaderList'
 
+
+const separatePosts = (posts, index = 3) => ({
+    main_posts: posts.slice(0, index),
+    second_posts: posts.slice(index, posts.length),
+})
 
 class PostListVisible extends Component {
     componentDidMount () {

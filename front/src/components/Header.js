@@ -1,10 +1,9 @@
 import React from 'react'
 import { connect } from 'react-redux'
 import { Link } from 'react-router'
-
 import classNames from 'classnames'
-import { toggleMenu } from '../actions'
 
+import { toggleMenu } from '../actions'
 import HeaderItem from './HeaderItem'
 
 
