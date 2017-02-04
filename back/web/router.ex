@@ -13,6 +13,12 @@ defmodule CklNews.Router do
     plug :accepts, ["json"]
   end
 
+  scope "/api", CklNews do
+    pipe_through :api
+
+    get "/posts", PostController, :index
+  end
+
   scope "/", CklNews do
     pipe_through :browser
 
