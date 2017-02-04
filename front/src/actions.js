@@ -15,8 +15,10 @@ export const toggleMenu = (menu) => ({
     type: 'TOGGLE_MENU',
 })
 
-export const fetchPosts = (filter) => (dispatch, getState ) => {
+export const fetchPosts = (filter) => (dispatch, getState) => {
     dispatch(requestPosts())
 
-    return getFilteredPosts(filter).then(posts => dispatch(receivePosts(posts)))
+    return getFilteredPosts(filter).then((res) => {
+        dispatch(receivePosts(res.data.posts))
+    })
 }

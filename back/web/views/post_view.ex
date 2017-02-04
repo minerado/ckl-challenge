@@ -10,6 +10,7 @@ defmodule CklNews.PostView do
 
     def post_json(post) do
         %{
+            id: post.id,
             title: post.title,
             text: post.text,
             image: post.image,
