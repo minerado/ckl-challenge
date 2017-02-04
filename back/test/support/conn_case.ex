@@ -20,6 +20,8 @@ defmodule CklNews.ConnCase do
       # Import conveniences for testing with connections
       use Phoenix.ConnTest
 
+      import CklNews.Factory
+
       alias CklNews.Repo
       import Ecto
       import Ecto.Changeset
