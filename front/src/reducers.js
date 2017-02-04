@@ -32,6 +32,7 @@ const is_fetching = (state = false, action) => {
     }
 }
 
+
 export default combineReducers({
     is_fetching,
     menu,

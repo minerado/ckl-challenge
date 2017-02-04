@@ -31,4 +31,5 @@ const setMiddlewares = (middlewares, env) =>
         .filter(m => (m.env === env || !m.env))
         .map(m => m.use)
 
+
 export default setMiddlewares(middlewares, getEnv())

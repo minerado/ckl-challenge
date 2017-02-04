@@ -1,5 +1,6 @@
 import React from 'react'
 
+
 const PostLoader = () => (
     <div className='post-loader-wrapper a-scale-and-fade-in'>
         <div className='post-loader a-background-loading'>
