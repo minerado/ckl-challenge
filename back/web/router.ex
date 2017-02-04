@@ -17,6 +17,7 @@ defmodule CklNews.Router do
     pipe_through :api
 
     get "/posts", PostController, :index
+    get "/posts/:filter", PostController, :index
   end
 
   scope "/", CklNews do
