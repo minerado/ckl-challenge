@@ -7,6 +7,8 @@ defmodule CklNews.PageView do
                 "http://localhost:3000/js/#{name}.js"
             :prod ->
                 static_path(conn, "/js/#{name}.js")
+            :test ->
+                "http://localhost:3000/js/#{name}.js"
         end
     end
 
